@@ -1,0 +1,20 @@
+export default {
+  common:{
+    technology:[],
+    involved:[],
+    learn:{},
+    mentor:{},
+    hire:{},
+    sections:[],
+    isMobile:false,    
+    appLoaded:false,  
+    path:'',
+    isMobile:false,
+    forms:{},
+    calendar:{},
+    calendarObserve:0,  
+    validationForms:{},
+    formObserve:0,
+    screen_size:0
+  }
+}

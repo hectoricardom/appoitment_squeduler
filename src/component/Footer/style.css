@@ -1,0 +1,28 @@
+.footer_conatiner{
+    padding: 10px 80px;
+    background:  var(--color-logo_);
+}
+
+.footer_menu{
+    padding: 20px 80px;
+}
+
+
+.footer_menu .info{    
+    font-size: 1.375rem;
+    font-weight: 300;
+    color: var(--footer--text-color--);
+}
+
+@media only screen and (max-width: 590px){
+    .footer_conatiner{
+        padding: 40px 10px;
+    }
+    
+    .footer_menu{
+        padding: 120px 0px;
+    }
+    .footer_menu .info{    
+        font-size: 3vw;
+    }
+}

@@ -1,0 +1,213 @@
+
+
+
+.tip__card {
+    background-color:  var(--tip__card--backgropund-Color--) ;
+    border-bottom: 4px solid transparent;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin: 15px;
+    max-height: 90vh;
+    padding: 25px 25px 50px;
+    position: relative;
+}
+
+.tip__card_opacity{
+    opacity: 0;
+    height: 360px;
+    width: 315px;
+    margin: 25px auto;
+}
+
+
+.tip__card-title{    
+    font-size: 26px;
+    color: var(--colorText_); 
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+}
+
+
+.tip__card p {
+    font-size: 15px;
+    font-weight: 300;
+    color:  var(--tip__card--p-color--) ;
+    text-align: initial;
+}
+
+.tip__card a {
+    bottom: 25px;
+    display: block;
+    font-size: 14px;
+    left: 0;
+    position: absolute;
+    text-indent: 25px;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 300;
+    letter-spacing: -1.05px;
+    color: rgb(146, 152, 155);
+    text-align: left;
+    text-decoration: none;
+    float: left;
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;    
+    font-weight: 500;
+    line-height: 1.875rem;
+    text-rendering: optimizeLegibility;
+}
+
+
+
+.tip__card svg {    
+    bottom: -10px;
+    content: '';
+    display: block;
+    height: 48px;
+    position: absolute;
+    right: 10px;
+    width: 48px;
+}
+
+.tip__card[is-in-viewport=true].cascade-text__item {
+    -webkit-animation: fade-in .6s ease-out forwards, enter-text .6s forwards;
+    animation: fade-in .6s ease-out forwards, enter-text .6s forwards;
+}
+
+.tip__card[is-in-viewport=true].fade-and-slide--right{
+    -webkit-animation: fade-in .6s ease-in .2s forwards, slide-right .8s ease-in-out .2s forwards;
+    animation: fade-in .6s ease-in .2s forwards, slide-right .8s ease-in-out .2s forwards;
+}
+
+.tip__card[is-in-viewport=true].fade-and-slide--left{
+    -webkit-animation: fade-in .6s ease-in .2s forwards, slide-left .8s ease-in-out .2s forwards;
+    animation: fade-in .6s ease-in .2s forwards, slide-left .8s ease-in-out .2s forwards;
+}
+
+.time_needed{
+    border-bottom: 5px solid #7e57c2;
+    width: 300px;
+}
+
+.time_needed svg{
+    fill: #7e57c2;
+}
+
+.pricing{
+    border-bottom: 5px solid #e91e63;
+    width: 300px;
+}
+
+.pricing svg{
+    fill: #e91e63;
+}
+
+
+
+.certification{
+    border-bottom: 5px solid #42a5f5;
+    width: 300px;
+}
+
+.certification svg{
+    fill: #42a5f5;
+}
+
+.become_programmer{
+    border-bottom: 5px solid #ff3d00; 
+    width: 300px;
+}
+
+.become_programmer svg{
+    fill: #ff3d00;
+}
+
+.get_job{
+    border-bottom: 5px solid #ffea00; 
+    width: 300px;
+}
+
+.get_job svg{
+    fill :#ffea00;  
+}
+
+.veteran {
+    border-bottom: 5px solid #77c159;
+    width: 300px;
+}
+
+.veteran svg{
+    fill: #77c159;
+}
+
+
+.flexWrap{
+    flex-wrap: wrap;
+}
+
+
+
+
+.questions{
+    background:  var(--background--color) url(https://hectoricardom.github.io/img/bg-gradient.png) repeat-x 0 0;    
+    min-height: calc(100vh - 50px);
+}
+
+
+
+
+.section_faq h2{
+    font-size: 35px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: var(--colorText_); 
+}
+
+
+.tittt{    
+    float: left;
+    font-family: "Google Sans",Arial,Helvetica,sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    text-rendering: optimizeLegibility;
+}
+
+
+@media only screen and (max-width: 1199px){
+    .time_needed {        
+        width: 270px;
+        margin: 25px auto;
+    }
+
+    .veteran {
+        width: 270px;
+        margin: 25px auto;
+    }
+    
+    .pricing{
+        width: 270px;
+        margin: 25px auto;
+    }
+
+    .certification{
+        width: 270px;
+        margin: 25px auto;
+    }
+
+    .become_programmer{
+        width: 270px;
+        margin: 25px auto;
+    }
+
+    .get_job{
+        width: 270px;
+        margin: 25px auto;
+    }
+}
